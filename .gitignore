@@ -1,0 +1,37 @@
+# Ambiente virtual
+venv/
+.venv/
+ENV/
+env/
+
+# Configurações de ambiente
+.env
+
+# Banco vetorial salvo localmente (não subir vetores no GitHub)
+db/
+# (se quiser salvar apenas o modelo, mas normalmente db/ deve ser ignorado)
+
+# Banco de dados do histórico de chat
+chat_history.db
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do VSCode
+.vscode/
+
+# Cache do Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Arquivos de backup
+*.bak
